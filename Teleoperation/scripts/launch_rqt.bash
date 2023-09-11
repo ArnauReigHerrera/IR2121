@@ -1,5 +1,4 @@
-sudo apt update
-sudo apt install \
-ros-foxy-rqt-common-plugins
-Launch rqt with --force-discovery option.
+#!/bin/bash
+source /opt/ros/foxy/setup.bash
+rqt
 
