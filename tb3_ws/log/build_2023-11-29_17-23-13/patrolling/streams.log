@@ -1,0 +1,22 @@
+[0.021s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling -- -j6 -l6
+[0.077s] [100%] Built target patrolling
+[0.088s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling -- -j6 -l6
+[0.118s] Invoking command in '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling
+[0.125s] -- Install configuration: ""
+[0.129s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/lib/$(PROJECT_NAME)/patrolling
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/ament_index/resource_index/package_run_dependencies/patrolling
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/ament_index/resource_index/parent_prefix_path/patrolling
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/environment/path.sh
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/environment/path.dsv
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/local_setup.bash
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/local_setup.sh
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/local_setup.zsh
+[0.132s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/local_setup.dsv
+[0.133s] -- Installing: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/package.dsv
+[0.133s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/ament_index/resource_index/packages/patrolling
+[0.133s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/cmake/patrollingConfig.cmake
+[0.133s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/cmake/patrollingConfig-version.cmake
+[0.133s] -- Up-to-date: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling/share/patrolling/package.xml
+[0.136s] Invoked command in '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling
