@@ -1,0 +1,139 @@
+[0.000000] (-) TimerEvent: {}
+[0.000858] (patrolling) JobQueued: {'identifier': 'patrolling', 'dependencies': OrderedDict()}
+[0.000909] (patrolling) JobStarted: {'identifier': 'patrolling'}
+[0.022919] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'cmake'}
+[0.023716] (patrolling) Command: {'cmd': ['/usr/bin/cmake', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/src/patrolling', '-DCMAKE_INSTALL_PREFIX=/home/usuario/Documentos/GitHub/IR2121/tb3_ws/install/patrolling'], 'cwd': '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '3053'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:65638'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/xilinx/Vitis_HLS/2022.2/bin/:/xilinx/Vivado/2022.2/bin/:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob20.act.uji.es:@/tmp/.ICE-unix/3146,unix/labrob20.act.uji.es:/tmp/.ICE-unix/3146'), ('INVOCATION_ID', '1f55d2d7f04a41918371521edb497e54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfb916a4_f8e2_4d94_a8d0_85e1103461bc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099493] (-) TimerEvent: {}
+[0.199916] (-) TimerEvent: {}
+[0.300211] (-) TimerEvent: {}
+[0.400525] (-) TimerEvent: {}
+[0.474709] (patrolling) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.500620] (-) TimerEvent: {}
+[0.600891] (-) TimerEvent: {}
+[0.701162] (-) TimerEvent: {}
+[0.801561] (-) TimerEvent: {}
+[0.859041] (patrolling) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.879046] (patrolling) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.901655] (-) TimerEvent: {}
+[1.001907] (-) TimerEvent: {}
+[1.102226] (-) TimerEvent: {}
+[1.202568] (-) TimerEvent: {}
+[1.236926] (patrolling) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.242628] (patrolling) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.302670] (-) TimerEvent: {}
+[1.402957] (-) TimerEvent: {}
+[1.503208] (-) TimerEvent: {}
+[1.586384] (patrolling) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.603314] (-) TimerEvent: {}
+[1.619952] (patrolling) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.620428] (patrolling) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.632913] (patrolling) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.703398] (-) TimerEvent: {}
+[1.803656] (-) TimerEvent: {}
+[1.903934] (-) TimerEvent: {}
+[1.930906] (patrolling) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.938937] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.004037] (-) TimerEvent: {}
+[2.104332] (-) TimerEvent: {}
+[2.204593] (-) TimerEvent: {}
+[2.241751] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.278234] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.278672] (patrolling) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.294773] (patrolling) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.304692] (-) TimerEvent: {}
+[2.330996] (patrolling) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.331315] (patrolling) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.404796] (-) TimerEvent: {}
+[2.505083] (-) TimerEvent: {}
+[2.575995] (patrolling) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.605205] (-) TimerEvent: {}
+[2.632691] (patrolling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.642000] (patrolling) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.705303] (-) TimerEvent: {}
+[2.747706] (patrolling) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.777401] (patrolling) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.805404] (-) TimerEvent: {}
+[2.855024] (patrolling) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.905504] (-) TimerEvent: {}
+[2.913312] (patrolling) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.915541] (patrolling) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.926312] (patrolling) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.005617] (-) TimerEvent: {}
+[3.105923] (-) TimerEvent: {}
+[3.206284] (-) TimerEvent: {}
+[3.224939] (patrolling) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.233182] (patrolling) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.306384] (-) TimerEvent: {}
+[3.406691] (-) TimerEvent: {}
+[3.506972] (-) TimerEvent: {}
+[3.569356] (patrolling) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.569706] (patrolling) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.607060] (-) TimerEvent: {}
+[3.700751] (patrolling) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.705290] (patrolling) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.707126] (-) TimerEvent: {}
+[3.807397] (-) TimerEvent: {}
+[3.907928] (-) TimerEvent: {}
+[4.008198] (-) TimerEvent: {}
+[4.019715] (patrolling) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.032168] (patrolling) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.108323] (-) TimerEvent: {}
+[4.169863] (patrolling) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[4.200935] (patrolling) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.208422] (-) TimerEvent: {}
+[4.308671] (-) TimerEvent: {}
+[4.335493] (patrolling) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.336437] (patrolling) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.336576] (patrolling) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.336636] (patrolling) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.337442] (patrolling) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.337577] (patrolling) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.338459] (patrolling) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.339471] (patrolling) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.339617] (patrolling) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.340229] (patrolling) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.360446] (patrolling) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.368553] (patrolling) StdoutLine: {'line': b'-- Generating done\n'}
+[4.384752] (patrolling) StdoutLine: {'line': b'-- Build files have been written to: /home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling\n'}
+[4.392307] (patrolling) CommandEnded: {'returncode': 0}
+[4.397388] (patrolling) JobProgress: {'identifier': 'patrolling', 'progress': 'build'}
+[4.400349] (patrolling) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling', '--', '-j6', '-l6'], 'cwd': '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'usuario'), ('SSH_AGENT_PID', '3053'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'ibus'), ('HOME', '/home/usuario'), ('OLDPWD', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2871'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'usuario'), ('JOURNAL_STREAM', '8:65638'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'usuario'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/xilinx/Vitis_HLS/2022.2/bin/:/xilinx/Vivado/2022.2/bin/:/home/usuario/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labrob20.act.uji.es:@/tmp/.ICE-unix/3146,unix/labrob20.act.uji.es:/tmp/.ICE-unix/3146'), ('INVOCATION_ID', '1f55d2d7f04a41918371521edb497e54'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/dfb916a4_f8e2_4d94_a8d0_85e1103461bc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'es_ES.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/usuario/Documentos/GitHub/IR2121/tb3_ws/build/patrolling'), ('LC_ALL', 'es_ES.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.408789] (-) TimerEvent: {}
+[4.509095] (-) TimerEvent: {}
+[4.515706] (patrolling) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target patrolling\x1b[0m\n'}
+[4.609372] (-) TimerEvent: {}
+[4.676353] (patrolling) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/patrolling.dir/src/ver1.cpp.o\x1b[0m\n'}
+[4.709468] (-) TimerEvent: {}
+[4.809728] (-) TimerEvent: {}
+[4.910001] (-) TimerEvent: {}
+[5.010272] (-) TimerEvent: {}
+[5.110527] (-) TimerEvent: {}
+[5.210781] (-) TimerEvent: {}
+[5.311043] (-) TimerEvent: {}
+[5.411317] (-) TimerEvent: {}
+[5.511609] (-) TimerEvent: {}
+[5.611870] (-) TimerEvent: {}
+[5.712149] (-) TimerEvent: {}
+[5.812415] (-) TimerEvent: {}
+[5.912677] (-) TimerEvent: {}
+[6.012951] (-) TimerEvent: {}
+[6.113248] (-) TimerEvent: {}
+[6.213519] (-) TimerEvent: {}
+[6.313777] (-) TimerEvent: {}
+[6.414075] (-) TimerEvent: {}
+[6.514338] (-) TimerEvent: {}
+[6.614615] (-) TimerEvent: {}
+[6.714877] (-) TimerEvent: {}
+[6.815122] (-) TimerEvent: {}
+[6.915395] (-) TimerEvent: {}
+[7.015664] (-) TimerEvent: {}
+[7.115940] (-) TimerEvent: {}
+[7.216210] (-) TimerEvent: {}
+[7.289341] (patrolling) StderrLine: {'line': b"make[2]: *** Se borra el archivo 'CMakeFiles/patrolling.dir/src/ver1.cpp.o'\n"}
+[7.289823] (patrolling) StderrLine: {'line': b'make[2]: *** [CMakeFiles/patrolling.dir/build.make:63: CMakeFiles/patrolling.dir/src/ver1.cpp.o] Interrupci\xc3\xb3n\n'}
+[7.289935] (patrolling) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/patrolling.dir/all] Interrupci\xc3\xb3n\n'}
+[7.290060] (patrolling) StderrLine: {'line': b'make: *** [Makefile:141: all] Interrupci\xc3\xb3n\n'}
+[7.291136] (patrolling) CommandEnded: {'returncode': -2}
+[7.316313] (-) TimerEvent: {}
+[7.387578] (patrolling) JobEnded: {'identifier': 'patrolling', 'rc': 'SIGINT'}
+[7.398311] (-) EventReactorShutdown: {}
