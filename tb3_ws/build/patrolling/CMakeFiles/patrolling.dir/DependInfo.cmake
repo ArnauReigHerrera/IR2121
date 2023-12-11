@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp" "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles/patrolling.dir/src/ver1.cpp.o"
+  "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver2.cpp" "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles/patrolling.dir/src/ver2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,6 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/arnaureig/ros2_foxy/install/nav_msgs/include"
   "/opt/ros/foxy/include"
   )
 

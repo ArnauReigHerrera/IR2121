@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target patrolling[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/patrolling.dir/src/ver1.cpp.o[0m
+[01m[K/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp:42:30:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   42 |   rclcpp::WallRate loop_rate([01;31m[K300ms[m[K);
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp:45:12:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K+=[m[K’ token
+   45 |   int cont [01;31m[K+=[m[K 1;
+      |            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/patrolling.dir/build.make:63: CMakeFiles/patrolling.dir/src/ver1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/patrolling.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -19,9 +19,10 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
-add_executable(patrolling src/ver1.cpp)
-ament_target_dependencies(patrolling rclcpp geometry_msgs)
+add_executable(patrolling src/ver2.cpp)
+ament_target_dependencies(patrolling rclcpp geometry_msgs nav_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

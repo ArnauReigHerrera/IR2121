@@ -206,32 +206,32 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
-src/ver1.o: src/ver1.cpp.o
+src/ver2.o: src/ver2.cpp.o
 
-.PHONY : src/ver1.o
+.PHONY : src/ver2.o
 
 # target to build an object file
-src/ver1.cpp.o:
-	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver1.cpp.o
-.PHONY : src/ver1.cpp.o
+src/ver2.cpp.o:
+	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver2.cpp.o
+.PHONY : src/ver2.cpp.o
 
-src/ver1.i: src/ver1.cpp.i
+src/ver2.i: src/ver2.cpp.i
 
-.PHONY : src/ver1.i
+.PHONY : src/ver2.i
 
 # target to preprocess a source file
-src/ver1.cpp.i:
-	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver1.cpp.i
-.PHONY : src/ver1.cpp.i
+src/ver2.cpp.i:
+	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver2.cpp.i
+.PHONY : src/ver2.cpp.i
 
-src/ver1.s: src/ver1.cpp.s
+src/ver2.s: src/ver2.cpp.s
 
-.PHONY : src/ver1.s
+.PHONY : src/ver2.s
 
 # target to generate assembly for a file
-src/ver1.cpp.s:
-	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver1.cpp.s
-.PHONY : src/ver1.cpp.s
+src/ver2.cpp.s:
+	$(MAKE) -f CMakeFiles/patrolling.dir/build.make CMakeFiles/patrolling.dir/src/ver2.cpp.s
+.PHONY : src/ver2.cpp.s
 
 # Help Target
 help:
@@ -249,9 +249,9 @@ help:
 	@echo "... test"
 	@echo "... patrolling_uninstall"
 	@echo "... uninstall"
-	@echo "... src/ver1.o"
-	@echo "... src/ver1.i"
-	@echo "... src/ver1.s"
+	@echo "... src/ver2.o"
+	@echo "... src/ver2.i"
+	@echo "... src/ver2.s"
 .PHONY : help
 
 

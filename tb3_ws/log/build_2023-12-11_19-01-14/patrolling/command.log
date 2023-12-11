@@ -1,0 +1,2 @@
+Invoking command in '/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling': /usr/bin/cmake --build /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling -- -j6 -l6
+Invoked command in '/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling' returned '2': /usr/bin/cmake --build /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling -- -j6 -l6

@@ -57,33 +57,33 @@ include CMakeFiles/patrolling.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/patrolling.dir/flags.make
 
-CMakeFiles/patrolling.dir/src/ver1.cpp.o: CMakeFiles/patrolling.dir/flags.make
-CMakeFiles/patrolling.dir/src/ver1.cpp.o: /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/patrolling.dir/src/ver1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/patrolling.dir/src/ver1.cpp.o -c /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp
+CMakeFiles/patrolling.dir/src/ver2.cpp.o: CMakeFiles/patrolling.dir/flags.make
+CMakeFiles/patrolling.dir/src/ver2.cpp.o: /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/patrolling.dir/src/ver2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/patrolling.dir/src/ver2.cpp.o -c /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver2.cpp
 
-CMakeFiles/patrolling.dir/src/ver1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/patrolling.dir/src/ver1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp > CMakeFiles/patrolling.dir/src/ver1.cpp.i
+CMakeFiles/patrolling.dir/src/ver2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/patrolling.dir/src/ver2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver2.cpp > CMakeFiles/patrolling.dir/src/ver2.cpp.i
 
-CMakeFiles/patrolling.dir/src/ver1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/patrolling.dir/src/ver1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver1.cpp -o CMakeFiles/patrolling.dir/src/ver1.cpp.s
+CMakeFiles/patrolling.dir/src/ver2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/patrolling.dir/src/ver2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling/src/ver2.cpp -o CMakeFiles/patrolling.dir/src/ver2.cpp.s
 
 # Object files for target patrolling
 patrolling_OBJECTS = \
-"CMakeFiles/patrolling.dir/src/ver1.cpp.o"
+"CMakeFiles/patrolling.dir/src/ver2.cpp.o"
 
 # External object files for target patrolling
 patrolling_EXTERNAL_OBJECTS =
 
-patrolling: CMakeFiles/patrolling.dir/src/ver1.cpp.o
+patrolling: CMakeFiles/patrolling.dir/src/ver2.cpp.o
 patrolling: CMakeFiles/patrolling.dir/build.make
 patrolling: /opt/ros/foxy/lib/librclcpp.so
-patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+patrolling: /home/arnaureig/ros2_foxy/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+patrolling: /home/arnaureig/ros2_foxy/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+patrolling: /home/arnaureig/ros2_foxy/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+patrolling: /home/arnaureig/ros2_foxy/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
 patrolling: /opt/ros/foxy/lib/liblibstatistics_collector.so
 patrolling: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 patrolling: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -113,7 +113,12 @@ patrolling: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 patrolling: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 patrolling: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
 patrolling: /opt/ros/foxy/lib/libtracetools.so
+patrolling: /home/arnaureig/ros2_foxy/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+patrolling: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 patrolling: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 patrolling: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 patrolling: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
