@@ -1,5 +1,6 @@
 #!/bin/bash
 source /opt/ros/foxy/setup.bash
-export ROS_LOCALHOST_ONLY=1
+export TURTLEBOT3_MODEL=burger
+export ROS_DOMAIN_ID=10
 rviz2 -d config_robot.rviz
 
