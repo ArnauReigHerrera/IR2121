@@ -1,0 +1,31 @@
+[0.027s] Invoking command in '/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/install/patrolling
+[0.052s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.318s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.369s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.623s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.829s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.894s] CMake Error at CMakeLists.txt:27 (find_package):
+[0.894s]   By not providing "Findament_lint_auto.cmake" in CMAKE_MODULE_PATH this
+[0.894s]   project has asked CMake to find a package configuration file provided by
+[0.894s]   "ament_lint_auto", but CMake did not find one.
+[0.894s] 
+[0.895s]   Could not find a package configuration file provided by "ament_lint_auto"
+[0.895s]   with any of the following names:
+[0.895s] 
+[0.895s]     ament_lint_autoConfig.cmake
+[0.895s]     ament_lint_auto-config.cmake
+[0.895s] 
+[0.896s]   Add the installation prefix of "ament_lint_auto" to CMAKE_PREFIX_PATH or
+[0.896s]   set "ament_lint_auto_DIR" to a directory containing one of the above files.
+[0.896s]   If "ament_lint_auto" provides a separate development package or SDK, be
+[0.896s]   sure it has been installed.
+[0.896s] 
+[0.896s] 
+[0.896s] -- Configuring incomplete, errors occurred!
+[0.897s] See also "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles/CMakeOutput.log".
+[0.897s] See also "/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling/CMakeFiles/CMakeError.log".
+[0.908s] Invoked command in '/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/build/patrolling' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/src/patrolling -DCMAKE_INSTALL_PREFIX=/home/arnaureig/Documentos/GitHub/IR2121/tb3_ws/install/patrolling

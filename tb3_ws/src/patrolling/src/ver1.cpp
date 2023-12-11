@@ -7,6 +7,7 @@ int main(int argc, char **argv)
 
   // Crear un nodo
   auto node = rclcpp::Node::make_shared("patrolling");
+  rclcpp::WallRate loop_rate(2);
 
   // Crear un publicador para el tópico /goal_pose
   auto publisher = node->create_publisher<geometry_msgs::msg::PoseStamped>("/goal_pose", 10);
@@ -22,10 +23,13 @@ int main(int argc, char **argv)
   goal_msg.pose.orientation.z = 0.0;
   goal_msg.pose.orientation.w = 1.0;
 
+  while (rclcpp::ok()) {
   // Publicar el mensaje en el tópico /goal_pose
   publisher->publish(goal_msg);
-
   RCLCPP_INFO(node->get_logger(), "Objetivo enviado al robot");
+  rclcpp::spin_some(node);
+  loop_rate.sleep();
+  }
 
   //rclcpp::spin(node);
   rclcpp::shutdown();
